@@ -1,0 +1,3 @@
+# Note-taking for accelerated development
+
+You are very smart. But the more information you have to hold in your working memory, the less smart you become. Note-taking is an often overlooked habit that will improve your development immensely. Taking notes regularly helps you recreate and improve your own processes. It increases your attention to detail. And best of all it helps keep focus so you don't set out to accomplish one thing and find yourself spending your time on something completely unrelated. This talk will teach attendees principles and tools of next-level note-taking as well as techniques for reducing friction to note-taking and getting started today!
