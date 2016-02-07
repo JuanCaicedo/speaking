@@ -23,3 +23,6 @@
 - A better AJAX, loading large JSON easily
 - Better JSON through streams
 - Command Line Applications, the Node.js way
+
+## Dinosaur.js
+- A better AJAX, loading large JSON easily
