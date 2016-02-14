@@ -26,3 +26,7 @@
 
 ## Dinosaur.js
 - A better AJAX, loading large JSON easily
+
+## Empire.js
+- A better AJAX, loading large JSON easily
+- elm => javascript
