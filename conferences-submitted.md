@@ -30,3 +30,8 @@
 ## Empire.js
 - A better AJAX, loading large JSON easily
 - elm => javascript
+
+## Full-stack London
+- Better JSON through streams
+- Building Command Line Applications, the Node Way
+- The Node-Unix interface
