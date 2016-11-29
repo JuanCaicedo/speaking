@@ -13,6 +13,13 @@ full-stack Javascript developer for Fluencia, making the world's best
 Spanish-English online dictionary. When not programming, Juan likes playing all
 types of board games and he never grew out of climbing trees.
 
+## Español
+
+Juan David es un desarrollador full-stack para SpanishDict.com, el diccionario
+español inglés más grande del mundo. Creció entre Bogotá y Oregon, y habla
+inglés y español como lengua materna. Da charlas acerca del idioma Elm y de la
+filosofía Unix dentro de Node.js
+
 ## 30 second version
 
 I've always been fascinated by language, having grown up speaking three.
