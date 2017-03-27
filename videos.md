@@ -1,0 +1,4 @@
+- Forward Courses, Test Driven CSS (online workshop), https://forwardcourses.com/workshops/119
+- Better JSON through streams, Fullstack London 2016, https://skillsmatter.com/skillscasts/8160-better-json-through-streams
+- Better JSON through streams, NationJS NodeDay 2016, https://vimeopro.com/user24051491/nationjs-node-day-march-11-2016/video/169948440
+- Elm => Javascript, JSConf Uruguay 2016, https://www.youtube.com/watch?v=UmxPZpam7o0

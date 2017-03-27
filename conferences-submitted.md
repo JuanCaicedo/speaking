@@ -1,5 +1,11 @@
 # Conferences submitted to:
 
+## CSS dev conf
+October 9-11, 2017 · New Orleans
+http://2017.cssdevconf.com/
+
+- Test Driven CSS
+
 ## NationJS Node Day
 - Better JSON through streams
 - elm => javascript
