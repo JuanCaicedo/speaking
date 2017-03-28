@@ -1,5 +1,11 @@
 # Conferences submitted to:
 
+## JSConf Budapest
+September 14-15 2017
+http://jsconfbp.com/
+
+- Test Driven CSS
+
 ## CSS dev conf
 October 9-11, 2017 · New Orleans
 http://2017.cssdevconf.com/
