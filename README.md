@@ -15,6 +15,16 @@ because he wanted to encourage more people to get into technical speaking.
 Couldn't be more thankful! If you ever get a chance to show him some love, you
 should.
 
+# Systematized approaches to everyday life
+
+Life is complex, full of uncertainty, and constantly changing. Does that sound
+like software engineering? This talk will explore how we can use the methods
+commonly applied in programming to other situations in real life, from packing a
+bag to having difficult conversations. By examining areas other than
+programming, well look at how pre-designed systems can help save mental
+bandwidth and make it easier to adapt to the unexpected. By the end, developers
+will be able to use these ideas to better create and evaluate software systems.
+
 # The new asynchrony, understanding async/await
 
 Asynchronous code is here to stay. As javascript is used for more and more
@@ -56,7 +66,7 @@ unstyled content. However, stylesheets for modern web applications quickly
 become far to large to load completely before content is rendered to the user.
 
 This talk will describe an approach known as critical css, where you inline
-styles required for the above the old content of a page and lazy load all other
+styles required for the above-the-fold content of a page and lazy load all other
 styles. It will go a step further by describing the process we use at
 SpanishDict.com to generate critical css specifically tailored for each of our
 pages in order to include the minimum css required and ease maintenance costs.
