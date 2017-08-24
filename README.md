@@ -114,3 +114,28 @@ what I've learned about creating reusable command line tools from my
 professional and open source work. Developers will learn how to leverage their
 skills and knowledge from web development to towards creating reusable and
 distributable CLA's.
+
+# Integrating React into an existing application
+
+When you outgrow your client-side architecture, you don't always have the
+liberty to build another one from scratch. What if you could move to the latest
+and greatest, without throwing out what you've previously built? This talk will
+showcase how we did this at SpanishDict.com, by adding a fast, responsive, and
+scalable React app into the middle of our server-rendered, jQuery-powered site.
+Specifically, we'll cover the topics of code reuse (in js and styling), data
+sharing, and integrating a new build process. By the end, developers will be
+better able to assess how reimagining their client-side could fit into their
+established web apps.
+
+# Focus on less
+
+Recent research has shown that you have a limited quantity of the most crucial
+resource: your attention. Yet as a developer, your attention is often pulled in
+a hundred different directions. In this talk, we will establish the importance
+of minimizing your focus as much as possible and how it can boost the quality of
+your work. We'll go through tricks I've learned to avoid letting distractions
+get the best of me, ranging from the technical (like using custom notifications
+to alert when a CI build is finished) to the everyday (like journaling during
+programming). This talk will combine modern psychology, tech, and practicality.
+By the end, developers will be better able to identify sources of distraction in
+their work and find strategies to combat them.

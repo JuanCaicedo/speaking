@@ -7,9 +7,9 @@ therapeutic. He lends a hand with www.oboejs.com.
 ## 400 char version
 
 Juan has always been fascinated by language, having grown up speaking three. He
-finds refactoring therapeutic, problem solving exhilarating, and being an
-organizer for his local JS community fulfilling. He is lucky enough to work as a
-full-stack Javascript developer for Fluencia, making the world's best
+finds refactoring therapeutic, problem solving exhilarating, and participating
+in his local JS community fulfilling. He is lucky enough to work as a
+full-stack Javascript developer for Curiosity media, making the world's largest
 Spanish-English online dictionary. When not programming, Juan likes playing all
 types of board games and he never grew out of climbing trees.
 
