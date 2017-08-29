@@ -139,3 +139,5 @@ to alert when a CI build is finished) to the everyday (like journaling during
 programming). This talk will combine modern psychology, tech, and practicality.
 By the end, developers will be better able to identify sources of distraction in
 their work and find strategies to combat them.
+
+# Why our computer feels like the real world
