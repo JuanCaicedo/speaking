@@ -1,0 +1,4 @@
+- Update phone number
+- Double check accomodation days
+- Make sure of arrival details
+- Check if internet or other things needed for presentation
