@@ -20,6 +20,7 @@ should.
 - [Test-driven CSS](test-driven-css.md)
 - [Building command line applications, the Node way](command-line-node.md)
 - [Better JSON through streams](better-json-through-streams.md)
+- [A better AJAX, loading large JSON easily](oboe-talk.md)
 
 # Systematized approaches to everyday life
 
