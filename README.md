@@ -25,16 +25,6 @@ programming, well look at how pre-designed systems can help save mental
 bandwidth and make it easier to adapt to the unexpected. By the end, developers
 will be able to use these ideas to better create and evaluate software systems.
 
-# The new asynchrony, understanding async/await
-
-Asynchronous code is here to stay. As javascript is used for more and more
-complex tasks, asynchronous code becomes more and more complex. The great news
-is that there are tools that make it possible to take that complexity and make
-it simple, and they come built-in to ES7 (ES 2016)! This talk will introduce
-developers to the async/await features in modern javascript, covering a
-foundation in promises and generators. By the end of the talk, developers will
-learn some new tricks to tame their asynchronous beasts.
-
 # Test-driven CSS
 
 Your styles should be as high quality as all your other code. You should be able
@@ -43,12 +33,10 @@ to grow with ease. Automated testing and test-driven development facilitate this
 for front-end and back-end code, but why not also do it for your CSS?
 
 This workshop will introduce developers to Quixote, a Javascript library for
-automated CSS testing. Through the process iteratively designing and building
-the styles that make up SpanishDict.com's language learning guide, it will
-explore how and why to test CSS both at the unit and integration levels.
-Developers will learn how to apply Test Driven Development techniques to the
-process of implementing designs as well as how to introduce CSS testing to an
-existing code base.
+automated CSS testing. It will address both traditional stylesheets and
+different versions of CSS-in-JS. Developers will learn how to apply Test Driven
+Development techniques to the process of implementing designs as well as how to
+introduce CSS testing to an existing code base.
 
 ## Prereqs
 
@@ -74,35 +62,6 @@ At the end of this talk, developers will be able to evaluate the value of
 critical css for their own sites and will know the tools required to
 successfully implement it.
 
-# How to bring a project back from the dead
-
-Great modules sometimes become unmaintained. It's a sad aspect of Open Source
-and the (huge) NPM ecosystem, but one we often have to grapple with. The great
-news is that you as a developer can take that code and get it back to thriving
-with determination, planning, and not as much effort as you might think. In this
-talk I'll talk about how I took Oboe.js, a library for progressive JSON parsing,
-and got it back up to a thriving project with great tooling and an all ES6 code
-base.
-
-# Stealth-caching: showing our most expensive feature to 10m users
-
-How do you show the results of a complicated query (that may not have results)
-while still keeping fast load times? This was a problem we faced at
-SpanishDict.com when we rolled out our example sentences feature to our 10
-million unique monthly visitors. In this talk, I will talk through our solution
-that leverages client-side rendering for improved performance and caching
-through Redis for improved user experience.
-
-# Stealth-caching: como mostrarle el feature más costoso a todos los usuarios
-
-Cómo se hace para poder mostrarle el resultado de un query complicado (el cual
-podría no tener resultados) manteniendo un tiempo de carga corto? Éste fue el
-problema que tuvimos en SpanishDict.com cuando queríamos mostrarle nuestras
-frases de ejemplos a todos nuestros 10 millones de usuarios mensuales. En esta
-charla, explicaré nuestra solución que utiliza rendering desde el cliente para
-mejorar el rendimiento y caching con Redis para mejorar la experiencia del
-usuario.
-
 # Building Command Line Applications, the Node Way
 
 A program becomes much more powerful when it evolves from a simple script to a
@@ -114,6 +73,28 @@ what I've learned about creating reusable command line tools from my
 professional and open source work. Developers will learn how to leverage their
 skills and knowledge from web development to towards creating reusable and
 distributable CLA's.
+
+## Outline
+
+* The UNIX philosophy of small modules
+* Examples of node CLA
+* Advantages of Node
+* Development flow for CLA
+* Reading command line arguments
+* Testing command line utilities
+* Explanation of piping and data streaming
+* Composing utilites together
+* Reading data streams
+* Managing back pressure
+* Interactive CLA
+* How to use exit codes
+* Handling error messages
+* Visual rendering in terminal with React
+* Sharing a CLA
+* Frameworks for CLAs
+* Disadvantages of node
+* Other possible languages and platforms
+
 
 # Integrating React into an existing application
 
@@ -127,9 +108,9 @@ sharing, and integrating a new build process. By the end, developers will be
 better able to assess how reimagining their client-side could fit into their
 established web apps.
 
-# Focus on less
+# Digital hygiene
 
-Recent research has shown that you have a limited quantity of the most crucial
+Recent research -has shown that you have a limited quantity of the most crucial
 resource: your attention. Yet as a developer, your attention is often pulled in
 a hundred different directions. In this talk, we will establish the importance
 of minimizing your focus as much as possible and how it can boost the quality of
@@ -140,4 +121,19 @@ programming). This talk will combine modern psychology, tech, and practicality.
 By the end, developers will be better able to identify sources of distraction in
 their work and find strategies to combat them.
 
-# Why our computer feels like the real world
+### Outline
+* Why attention is so important
+* Why attention is so fragile
+* Custom notifications
+* Reducing friction for critical tasks
+* Psychology of digital space
+* Digital organization
+* Mindfulness in programming
+* Journaling in programming
+* The challenge-reward loop and its positive effects
+* Maximizing focus through Test Driven Development
+* How physical comfort affects concentration
+* Using audio to heighten concentration
+* Tools that I personally feel help my workflow
+* Framework for evaluating whether a tool or process is worth adopting
+* Scaling focus to larger teams
