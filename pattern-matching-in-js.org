@@ -49,4 +49,13 @@ WIP
 - https://tc39.github.io/ecma262/#sec-destructuring-binding-patterns
 - freezes and blocks until infinity
 * do expressions
-https://github.com/tc39/proposal-do-expressions
+** Link
+- https://github.com/tc39/proposal-do-expressions
+** Why?
+- Helps functional programming
+- Variable is the result of executing some code
+- better than ternary assignment for many cases
+- Great for jsx templating
+** Impressions
+- This proposal seems to be lacking relative to pattern matching
+- Is that concerning given that pattern matching depends on it?
