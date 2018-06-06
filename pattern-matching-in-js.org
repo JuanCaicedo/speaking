@@ -1,0 +1,52 @@
+* Abstract
+WIP
+* Sparkler
+- library that inspired proposal
+- https://github.com/natefaubion/sparkler
+** better default args?
+- https://github.com/natefaubion/sparkler#argument-length at bottom
+** Variables or hardcoded values
+- from lib
+#+BEGIN_SRC js
+  function expensiveExtraction {
+    (MyExtractor(x, y, z), 1) => doThis(),
+    (MyExtractor(x, y, z), *) => doThat()
+  }
+#+END_SRC
+* TC 39 proposal
+** Link
+- https://github.com/tc39/proposal-pattern-matching/blob/latest/CORE.md
+** Big picture
+- Easy to use after destructuring syntax
+- Helps both OO code and functional code
+- Operator is a statement, cannot return a value
+- depends on ~do~ proposal to return values
+** Other
+- Cannot do regex directly, need to use ~if~ with a test
+- Variables in the ~when~ statement are bound within its body
+- Scoping and hoisting is like ~if~
+- branches can shadow variables defined outside
+- No need for ~else/default~, but can be done with a variable
+** Annex B, Performance
+- Compiler-side optimizations is the focus
+** How is this different from switch?
+- destructuring binding
+- no fallthrough (allows optimizations and reduces bugs)
+** Gotchas
+- ~Infinity~, ~undefined~, ~NaN~ are variables and can get reassigned
+** Questions
+*** TODO Why does this help class code?
+*** TODO Does this throw error if no match and no else?
+- no else statements
+*** So what happens if no match?
+*** DONE Does this do some internal optimizations?
+    CLOSED: [2018-06-06 Wed 10:34]
+- If so, this is a good use case, since doing it manually would be less
+  effective
+- Yes, optimizations are a big goal of the proposal
+
+* TODO Fix ecmascript website
+- https://tc39.github.io/ecma262/#sec-destructuring-binding-patterns
+- freezes and blocks until infinity
+* do expressions
+https://github.com/tc39/proposal-do-expressions

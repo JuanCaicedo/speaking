@@ -24,6 +24,7 @@ should.
 
 # Not yet accepted
 
+- [Pattern matching in js](pattern-matching-in-js.org)
 - [Systematized approaches to everyday life](systematized-life.md)
 - [Critical and tailored CSS](tailored-css.md)
 - [Digital hygiene](digital-hygiene.md)
