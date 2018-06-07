@@ -45,6 +45,24 @@ WIP
   effective
 - Yes, optimizations are a big goal of the proposal
 
+*** TODO Could you use this to better handle different func signatures?
+- I'm imagining how sometimes a function can be called in these ways
+#+BEGIN_SRC js
+foo(cb)
+foo("arg", cb)
+foo("arg", {options}, cb)
+#+END_SRC
+*** TODO Pattern match for booleans, undefined, etc?
+- Perhaps more robust than
+#+BEGIN_SRC js
+if (!someVariable) return next()
+//other code
+next()
+#+END_SRC
+*** TODO How does this work with flow, typescript?
+*** TODO Why can't you do this with just destructuring
+- optimizations might be one answer?
+- undefined errors might be another?
 * TODO Fix ecmascript website
 - https://tc39.github.io/ecma262/#sec-destructuring-binding-patterns
 - freezes and blocks until infinity
@@ -59,3 +77,27 @@ WIP
 ** Impressions
 - This proposal seems to be lacking relative to pattern matching
 - Is that concerning given that pattern matching depends on it?
+* In rust
+- https://www.youtube.com/watch?v=OkR__wxWrG0
+- rust forces else clause
+- Js requires more syntax (if, and/or), but can do all the same things
+* In elixir
+- https://www.youtube.com/watch?v=X6EVLSKqMTY
+- Looks mostly like js destructuring
+- if you use ~^~ before a var name, it will require it's current value to be
+  pattern matched
+* In F#
+- https://www.youtube.com/watch?v=cnJiITa9Qg0
+- compiler forces else clause
+- this can be done by extracting into a function
+- can match array passed in based on length
+* In scala
+- https://www.youtube.com/watch?v=ULcpWn23waw
+- pattern matching is comparing objects against other objects
+- can use it to check types
+- better than type casting
+- great for strongly typed languages
+- can be used for parsing json in a simple clear way
+- can be used to add new functions to objects that you don't control
+- great for deconstructing, type checking, taking actions based on that
+- con do complicated checks (8 steps in email example, with short syntax
