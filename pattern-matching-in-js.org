@@ -1,5 +1,17 @@
 * Abstract
-WIP
+The experienced Javascript developer has learned she should never use switch
+statements. They have tricky semantics and force a very imperative style, good
+riddance! Yet, this type of construct has a very important place in other
+languages, both Object Oriented and Functional, and it is beloved by programmers
+of those languages.
+
+This talk introduces the early stage TC-39 proposal for pattern matching, the
+new incarnation of switch statements for JS. It will cover the proposed
+semantics of this language feature, as well as its potential applications to
+front-end applications (through React/JSX) and back-end applications (through
+Node/Express). By the end, developers will be able to test out this experimental
+feature at home, and will be able to provide feedback to directly improve the
+proposal.
 * Sparkler
 - library that inspired proposal
 - https://github.com/natefaubion/sparkler
