@@ -1,0 +1,29 @@
+* Abstract
+One who knows everything can learn nothing. The most important lesson I've
+learned through my career has been to consistently check my own ego and learn
+from everyone around me. Being humble helps us better connect to others, make
+stronger technical decisions, and most significantly, have a better relationship
+with ourselves.
+
+It surprised me to need to learn that, because I had always thought of myself as
+humble. However, egotism is deceptive and it crops up when we least expect it.
+I'll share several situations in career and how being humble improved the social
+and technical outcomes. My hope is to share the mistakes I've made and extract
+the lessons they taught me. Attendees will come away with specific strategies
+for recognizing when they their actions are being influenced by ego and how to
+temper that effect.
+* Ideas
+** Other people's time is more important than yours
+- They have more pressing things to do
+- PR reviews
+- Ticket finishing and testing
+** Some people are bristly
+- Don't get defensive
+- Marcus Aurelius quote about people being assholes
+** Code does not belong to you
+- Other people need to change your code
+- Being too attached or territorial about it is bad for everyone
+- Ownership is about responsibility, not owning things
+* Books
+** Ego is the enemy, Ryan Holiday
+** Extreme ownership, Jocko Willink
