@@ -1,4 +1,5 @@
 * Abstract
+
 ** English
 If you already know everything, you can't learn anything new. The most important
 lesson I've learned through my career has been to consistently check my own ego
@@ -13,6 +14,7 @@ experiences from my development life and how ego affected the social and
 technical outcomes, as well as how humility improved them. Attendees will come
 away with specific strategies for recognizing when their actions are being
 influenced by ego and how to temper that effect.
+
 ** Español
 Él que ya lo sabe todo no puede aprender nada. La lección más importante que he
 aprendido en mi carrera ha sido como reconocer y manejar mi propio ego para
@@ -27,6 +29,7 @@ experiencias de mi vida como desarrollador y cómo el ego afectó los resultados
 técnicos y sociales, y también cómo la humildad mejoró esos mismos. La audiencia
 recibirá estrategías especificas para reconocer cuando el ego está influyendo
 sus acciones y como moderar ese efecto.
+
 * Ideas
 ** Other people's time is more important than yours
 - They have more pressing things to do
@@ -39,6 +42,7 @@ sus acciones y como moderar ese efecto.
 - Other people need to change your code
 - Being too attached or territorial about it is bad for everyone
 - Ownership is about responsibility, not owning things
+
 * Books
 ** Ego is the enemy, Ryan Holiday
 ** Extreme ownership, Jocko Willink
