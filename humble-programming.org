@@ -1,0 +1,48 @@
+* Abstract
+
+** English
+If you already know everything, you can't learn anything new. The most important
+lesson I've learned through my career has been to consistently check my own ego
+so I can learn from those around me. Being humble helps us better connect to
+others, make stronger technical decisions, and most significantly, have a better
+relationship with ourselves.
+
+That lesson surprised me because I had never thought of myself as someone with
+an ego. However, egotism is deceptive and it shows up in many ways like being
+stubborn, becoming defensive, or not listening. In this talk, I'll share
+experiences from my development life and how ego affected the social and
+technical outcomes, as well as how humility improved them. Attendees will come
+away with specific strategies for recognizing when their actions are being
+influenced by ego and how to temper that effect.
+
+** Español
+Quien ya lo sabe todo no puede aprender nada. La lección más importante que he
+aprendido en mi carrera ha sido como reconocer y manejar mi propio ego para
+poder aprender de los otros a mi alrededor. La humildad nos ayuda a hacer
+conecciones con otros, hacer mejores desiciones, y lo más importante, tratarnos
+mejor a nosotros mismos.
+
+Esa enseñanza me sorprendió porque siempre me he considerado una persona
+humilde. Pero el ego engaña y muestra la cara de muchas formas, como ser terco,
+ponerse a la defensiva, o no escuchar a los otros. En esta charla, compartiré
+experiencias de mi vida como desarrollador y cómo el ego afectó los resultados
+técnicos y sociales, y también cómo la humildad mejoró esos mismos. La audiencia
+recibirá estrategías especificas para reconocer cuando el ego está influyendo
+sus acciones y como moderar ese efecto.
+
+* Ideas
+** Other people's time is more important than yours
+- They have more pressing things to do
+- PR reviews
+- Ticket finishing and testing
+** Some people are bristly
+- Don't get defensive
+- Marcus Aurelius quote about people being assholes
+** Code does not belong to you
+- Other people need to change your code
+- Being too attached or territorial about it is bad for everyone
+- Ownership is about responsibility, not owning things
+
+* Books
+** Ego is the enemy, Ryan Holiday
+** Extreme ownership, Jocko Willink
