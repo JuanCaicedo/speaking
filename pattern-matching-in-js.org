@@ -1,4 +1,5 @@
 * Abstract
+** English
 The experienced Javascript developer has learned they should never use switch
 statements. They have tricky semantics and force a very imperative style, good
 riddance! Yet, this type of construct has a very important place in other
@@ -12,6 +13,20 @@ front-end applications (through React/JSX) and back-end applications (through
 Node/Express). By the end, developers will be able to test out this experimental
 feature at home, and will be able to provide feedback to directly improve the
 proposal.
+** Español
+Los desarrolladores de javascript aprendemos que nunca se deberían usar los
+switch statements. Tienen una semántica complicada y llevan hacia un estilo muy
+imperativo, que horror! Pero también es verdad que se usan mucho en otros
+lenguajes, de orientación a objetos y también funcional, y que a esos
+desarrolladores les encantan.
+
+Esta charla hace una introducción a la propuesta de TC-39 de pattern matching,
+la nueva encarnación de los switch statements en JS. Hablaremos de la semántica
+tal como existe en la propuesta, y también como se aplicaría a las aplicaciones
+del front-end (con React/JSX) y del back-end (con Node/Express). Después de
+escucharla, los desarrolladores tendrán la habilidad y sabiduría para ensayar
+el pattern matching en su casa, y podrán contribuir su opinión directamente a la
+propuesta.
 * Sparkler
 - library that inspired proposal
 - https://github.com/natefaubion/sparkler
