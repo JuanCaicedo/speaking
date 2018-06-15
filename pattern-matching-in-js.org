@@ -1,5 +1,5 @@
 * Abstract
-The experienced Javascript developer has learned she should never use switch
+The experienced Javascript developer has learned they should never use switch
 statements. They have tricky semantics and force a very imperative style, good
 riddance! Yet, this type of construct has a very important place in other
 languages, both Object Oriented and Functional, and it is beloved by programmers
