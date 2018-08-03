@@ -27,3 +27,4 @@ should.
 - [Systematized approaches to everyday life](systematized-life.md)
 - [Critical and tailored CSS](tailored-css.md)
 - [Digital hygiene](digital-hygiene.md)
+- [Humble programming](humble-programming.org)
