@@ -14,11 +14,7 @@ Node/Express). By the end, developers will be able to test out this experimental
 feature at home, and will be able to provide feedback to directly improve the
 proposal.
 ** Español
-Los desarrolladores de javascript aprendemos que nunca se deberían usar los
-switch statements. Tienen una semántica complicada y llevan hacia un estilo muy
-imperativo, que horror! Pero también es verdad que se usan mucho en otros
-lenguajes, de orientación a objetos y también funcional, y que a esos
-desarrolladores les encantan.
+Los desarrolladores de javascript aprendemos que nunca se deberían usar los switch statements. Tienen una semántica complicada y llevan hacia un estilo muy imperativo, que horror! Pero también es verdad que se usan mucho en otros lenguajes, de orientación a objetos y también funcional, y que a esos desarrolladores les encantan.
 
 Esta charla hace una introducción a la propuesta de TC-39 de pattern matching,
 la nueva encarnación de los switch statements en JS. Hablaremos de la semántica
@@ -27,6 +23,40 @@ del front-end (con React/JSX) y del back-end (con Node/Express). Después de
 escucharla, los desarrolladores tendrán la habilidad y sabiduría para ensayar
 el pattern matching en su casa, y podrán contribuir su opinión directamente a la
 propuesta.
+* TODO Short for node conf argentina
+Javascript developers learn they should never use switch statements, yet this
+type of construct has a very important place in other programming languages.
+This talk introduces the early stage TC-39 proposal for pattern matching, the
+new incarnation of switch statements for JS: semantics of this language feature
+and as its potential applications to both front-end applications (through
+React/JSX) and back-end applications (through Node/Express). By the end,
+developers will be able to test out this experimental feature at home, and to
+provide feedback to directly improve the proposal!
+** Why
+Hola que tal, I wanted to tell you why I'm excited about this talk looking at
+pattern matching in javascript. This is a pretty new idea in JS, but it is
+around in lots of other languages. I think showing how this feature behaves in
+those languages and comparing it to how it would need to work in JS is really
+interesting idea that would resonoate with the audience at node conf who tends
+have experience in a few languages.
+
+I also want to show how you can use babel to try out new language features that
+haven't made it into JS yet, which is really empowering for devs. Another thing
+I'm excited about with this talk is that afterwards attendees will be able to
+easily try this out and add their feedback to the TC39 proposal, showing how
+accessible the process is now.
+
+La propuesta y este video los hice en ingles por lo que la gran parte de las
+charlas del año pasado estaban en inglés, pero aunque yo me siento más comodo en
+ingles, me gustaría darla en español por que para mi es importante mostrar la
+comunidad de software en latino america.
+
+Gracias por ver y seguro que va a ser una conf espectacular
+
+- This will compare javascript and other languages
+- Show how to use babel to try out new js
+- It will show how you can contribute to tc39 process
+- Could do this talk in spanish
 * Sparkler
 - library that inspired proposal
 - https://github.com/natefaubion/sparkler
