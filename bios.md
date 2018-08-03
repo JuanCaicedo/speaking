@@ -1,17 +1,15 @@
 ## 200 char version
 
-Juan is a Colombian-Canadian-American full-stack developer at SpanishDict.com.
-He loves helping new programmers through NodeSchoolDC and finds refactoring
-therapeutic. He lends a hand with www.oboejs.com.
+Juan is a Colombian-Canadian-American software consultant (Double Agent) at
+TestDouble. He loves improving processes so that teams can collaborate better.
+When not programming, Juan plays the guitar and climbs trees.
 
 ## 400 char version
 
-Juan has always been fascinated by language, having grown up speaking three. He
-finds refactoring therapeutic, problem solving exhilarating, and participating
-in his local JS community fulfilling. He is lucky enough to work as a
-full-stack Javascript developer for Curiosity media, making the world's largest
-Spanish-English online dictionary. When not programming, Juan likes playing all
-types of board games and he never grew out of climbing trees.
+Juan is a Colombian-Canadian-American software consultant at TestDouble. His
+real job title is Double Agent. He loves helping new programmers get started and improving processes so that
+teams can collaborate better. When not programming, Juan has been learning to
+play the guitar and he never grew out of climbing trees.
 
 ## Español
 
