@@ -30,6 +30,17 @@ técnicos y sociales, y también cómo la humildad mejoró esos mismos. La audie
 recibirá estrategías especificas para reconocer cuando el ego está influyendo
 sus acciones y como moderar ese efecto.
 
+* Short for NodeConf Argentina
+
+La lección más importante que he aprendido ha sido como reconocer y manejar mi
+propio ego. La humildad nos ayuda a conectar con los otros, hacer mejores
+desiciones, y lo más importante, tratarnos bien a nosotros mismos.
+
+El ego engaña y se muestra de muchas formas, como el ser terco, ponerse a la
+defensiva, o no escuchar a los otros. Compartiré experiencias de mi vida como
+desarrollador y cómo el ego afectó los resultados técnicos y sociales. La
+audiencia aprenderá estrategías específicas para reconocer cuando el ego está
+influyendo sus acciones y como moderar ese efecto.
 * Ideas
 ** Other people's time is more important than yours
 - They have more pressing things to do
