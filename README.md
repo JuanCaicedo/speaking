@@ -21,6 +21,7 @@ should.
 - [Building command line applications, the Node way](command-line-node.md)
 - [Better JSON through streams](better-json-through-streams.md)
 - [A better AJAX, loading large JSON easily](oboe-talk.md)
+- [Pattern matching in JS](pattern-matching-in-js.org)
 
 # Not yet accepted
 
