@@ -163,3 +163,15 @@ next()
 - can be used to add new functions to objects that you don't control
 - great for deconstructing, type checking, taking actions based on that
 - con do complicated checks (8 steps in email example, with short syntax
+* Babel proposal
+https://github.com/babel/babel/pull/7633
+* Getting it up and running
+** Link
+- first link syntax package
+- then link proposal package
+- link syntax inside of proposal?
+- babel core too
+- build babel
+  * Install xcode tools ~xcode-select --install~
+  * Also run ~make bootsrap~
+  * ~npm run build~
