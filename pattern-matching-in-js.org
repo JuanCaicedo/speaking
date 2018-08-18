@@ -179,8 +179,26 @@ https://github.com/babel/babel/pull/7633
 ** Links
 - https://javascriptweblog.wordpress.com/2010/03/08/caseagainstswitch/
 - https://toddmotto.com/deprecating-the-switch-statement-for-object-literals/
+-
+  https://hackernoon.com/rethinking-javascript-eliminate-the-switch-statement-for-better-code-5c81c044716d
 ** Fall throughs
 - branches require ~break~ otherwise the next will execute
 - https://codepen.io/juancaicedo/pen/YOKXGz?editors=0012
 ** Syntax
 - the rest of js uses curly braces, but not ~case~
+* Alternatives
+** nested ternaries
+- Prettier doesn't like this
+- Nested can become arbitrarily deep
+- Is this optimized?
+** switchcaseF
+- function required to delay evaluation
+- https://codepen.io/juancaicedo/pen/yxBNRx?editors=0011
+- there might be a bug here? I can't get it to evaluate correctly
+** switchcase
+- requires default arg
+** Notes
+- https://codepen.io/juancaicedo/pen/OoLVBg?editors=0011
+- None of these options give you access to the variable conditionally
+- They also don't give you access to multiple variables
+- All the benefits of destructuring
