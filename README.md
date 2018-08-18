@@ -21,9 +21,11 @@ should.
 - [Building command line applications, the Node way](command-line-node.md)
 - [Better JSON through streams](better-json-through-streams.md)
 - [A better AJAX, loading large JSON easily](oboe-talk.md)
+- [Pattern matching in JS](pattern-matching-in-js.org)
 
 # Not yet accepted
 
+- [Pattern matching in js](pattern-matching-in-js.org)
 - [Systematized approaches to everyday life](systematized-life.md)
 - [Critical and tailored CSS](tailored-css.md)
 - [Digital hygiene](digital-hygiene.md)

@@ -1,0 +1,177 @@
+* Abstract
+** English
+The experienced Javascript developer has learned they should never use switch
+statements. They have tricky semantics and force a very imperative style, good
+riddance! Yet, this type of construct has a very important place in other
+languages, both Object Oriented and Functional, and it is beloved by programmers
+of those languages.
+
+This talk introduces the early stage TC-39 proposal for pattern matching, the
+new incarnation of switch statements for JS. It will cover the proposed
+semantics of this language feature, as well as its potential applications to
+front-end applications (through React/JSX) and back-end applications (through
+Node/Express). By the end, developers will be able to test out this experimental
+feature at home, and will be able to provide feedback to directly improve the
+proposal.
+** Español
+Los desarrolladores de javascript aprendemos que nunca se deberían usar los
+switch statements. Tienen una semántica complicada y llevan hacia un estilo muy
+imperativo, que horror! Pero también es verdad que se usan mucho en otros
+lenguajes, de orientación a objetos y también funcional, y que a esos
+desarrolladores les encantan.
+
+Esta charla hace una introducción a la propuesta de TC-39 de pattern matching,
+la nueva encarnación de los switch statements en JS. Hablaremos de la semántica
+tal como existe en la propuesta, y también como se aplicaría a las aplicaciones
+del front-end (con React/JSX) y del back-end (con Node/Express). Después de
+escucharla, los desarrolladores tendrán la habilidad y sabiduría para ensayar
+el pattern matching en su casa, y podrán contribuir su opinión directamente a la
+propuesta.
+* DONE Short for node conf argentina
+  CLOSED: [2018-07-27 Fri 16:56]
+Javascript developers learn they should never use switch statements, yet this
+type of construct has a very important place in other programming languages.
+This talk introduces the early stage TC-39 proposal for pattern matching, the
+new incarnation of switch statements for JS: semantics of this language feature
+and as its potential applications to both front-end applications (through
+React/JSX) and back-end applications (through Node/Express). By the end,
+developers will be able to test out this experimental feature at home, and to
+provide feedback to directly improve the proposal!
+** Why
+Hola que tal, I wanted to tell you why I'm excited about this talk looking at
+pattern matching in javascript. This is a pretty new idea in JS, but it is
+around in lots of other languages. I think showing how this feature behaves in
+those languages and comparing it to how it would need to work in JS is really
+interesting idea that would resonoate with the audience at node conf who tends
+have experience in a few languages.
+
+I also want to show how you can use babel to try out new language features that
+haven't made it into JS yet, which is really empowering for devs. Another thing
+I'm excited about with this talk is that afterwards attendees will be able to
+easily try this out and add their feedback to the TC39 proposal, showing how
+accessible the process is now.
+
+La propuesta y este video los hice en ingles por lo que la gran parte de las
+charlas del año pasado estaban en inglés, pero aunque yo me siento más comodo en
+ingles, me gustaría darla en español por que para mi es importante mostrar la
+comunidad de software en latino america.
+
+Gracias por ver y seguro que va a ser una conf espectacular
+
+- This will compare javascript and other languages
+- Show how to use babel to try out new js
+- It will show how you can contribute to tc39 process
+- Could do this talk in spanish
+* Sparkler
+- library that inspired proposal
+- https://github.com/natefaubion/sparkler
+** better default args?
+- https://github.com/natefaubion/sparkler#argument-length at bottom
+** Variables or hardcoded values
+- from lib
+#+BEGIN_SRC js
+  function expensiveExtraction {
+    (MyExtractor(x, y, z), 1) => doThis(),
+    (MyExtractor(x, y, z), *) => doThat()
+  }
+#+END_SRC
+* TC 39 proposal
+** Link
+- https://github.com/tc39/proposal-pattern-matching/blob/latest/CORE.md
+** Big picture
+- Easy to use after destructuring syntax
+- Helps both OO code and functional code
+- Operator is a statement, cannot return a value
+- depends on ~do~ proposal to return values
+** Other
+- Cannot do regex directly, need to use ~if~ with a test
+- Variables in the ~when~ statement are bound within its body
+- Scoping and hoisting is like ~if~
+- branches can shadow variables defined outside
+- No need for ~else/default~, but can be done with a variable
+** Annex B, Performance
+- Compiler-side optimizations is the focus
+** How is this different from switch?
+- destructuring binding
+- no fallthrough (allows optimizations and reduces bugs)
+** Gotchas
+- ~Infinity~, ~undefined~, ~NaN~ are variables and can get reassigned
+** Questions
+*** TODO Why does this help class code?
+*** TODO Does this throw error if no match and no else?
+- no else statements
+*** So what happens if no match?
+*** DONE Does this do some internal optimizations?
+    CLOSED: [2018-06-06 Wed 10:34]
+- If so, this is a good use case, since doing it manually would be less
+  effective
+- Yes, optimizations are a big goal of the proposal
+
+*** TODO Could you use this to better handle different func signatures?
+- I'm imagining how sometimes a function can be called in these ways
+#+BEGIN_SRC js
+foo(cb)
+foo("arg", cb)
+foo("arg", {options}, cb)
+#+END_SRC
+*** TODO Pattern match for booleans, undefined, etc?
+- Perhaps more robust than
+#+BEGIN_SRC js
+if (!someVariable) return next()
+//other code
+next()
+#+END_SRC
+*** TODO How does this work with flow, typescript?
+*** TODO Why can't you do this with just destructuring
+- optimizations might be one answer?
+- undefined errors might be another?
+* TODO Fix ecmascript website
+- https://tc39.github.io/ecma262/#sec-destructuring-binding-patterns
+- freezes and blocks until infinity
+* do expressions
+** Link
+- https://github.com/tc39/proposal-do-expressions
+** Why?
+- Helps functional programming
+- Variable is the result of executing some code
+- better than ternary assignment for many cases
+- Great for jsx templating
+** Impressions
+- This proposal seems to be lacking relative to pattern matching
+- Is that concerning given that pattern matching depends on it?
+* In rust
+- https://www.youtube.com/watch?v=OkR__wxWrG0
+- rust forces else clause
+- Js requires more syntax (if, and/or), but can do all the same things
+* In elixir
+- https://www.youtube.com/watch?v=X6EVLSKqMTY
+- Looks mostly like js destructuring
+- if you use ~^~ before a var name, it will require it's current value to be
+  pattern matched
+* In F#
+- https://www.youtube.com/watch?v=cnJiITa9Qg0
+- compiler forces else clause
+- this can be done by extracting into a function
+- can match array passed in based on length
+* In scala
+- https://www.youtube.com/watch?v=ULcpWn23waw
+- pattern matching is comparing objects against other objects
+- can use it to check types
+- better than type casting
+- great for strongly typed languages
+- can be used for parsing json in a simple clear way
+- can be used to add new functions to objects that you don't control
+- great for deconstructing, type checking, taking actions based on that
+- con do complicated checks (8 steps in email example, with short syntax
+* Babel proposal
+https://github.com/babel/babel/pull/7633
+* Getting it up and running
+** Link
+- first link syntax package
+- then link proposal package
+- link syntax inside of proposal?
+- babel core too
+- build babel
+  * Install xcode tools ~xcode-select --install~
+  * Also run ~make bootsrap~
+  * ~npm run build~
