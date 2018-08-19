@@ -203,3 +203,181 @@ https://github.com/babel/babel/pull/7633
 - None of these options give you access to the variable conditionally
 - They also don't give you access to multiple variables
 - All the benefits of destructuring
+* Talk
+** Introduction
+Friends, developers, countrymen, lend me your ears! I am angry and you should be
+too. Why? Because for years us javascript-ers have been told to never touch a
+switch statement. Today we will recap that tragedy, and we'll talk about how the
+brave devs who came before us chose dealt with the aftermath. But I will also
+introduce you to the future of the switch statement, that is to the proposal
+that will bring a new feature called pattern matching to javascript.
+** Bio
+Thanks for coming out today, I won't actually talk like that the whole time. My
+name is Juan Caicedo and I work helping people write nice code at a company
+called Test Double. I'm from Colombia, Canada, and Oregon, and I love talking
+about languages and guitar, so if any of that sounds interesting, feel free to
+come say hi.
+** Switch statements
+Growing up as a junior web developer in 2014, I heard people say that you
+shouldn't use switch statements. Only preparing for this talk did I ever stop to
+wonder, why? I found there is a wealth of blog posts on why we should never ever
+use them. My personal favorite is this one that reads "Switch statements are
+evil".
+
+The main reasons I could find that don't revolve around the morality of switch
+statements were that: 1, their syntax is strange in that it relies on colons
+instead of curly braces; and 2, you need to explicitly break after matching a
+case, otherwise you will match other statements below it in something called
+fall through hell.
+#+BEGIN_SRC js
+function printSwitchedValue (num) {
+  switch (num) {
+    case 1:
+      console.log('one')
+      break
+    case 2:
+      console.log('two')
+    case 3:
+      console.log('three')
+    default:
+      console.log('default')
+  }
+}
+
+printSwitchedValue(1) // 'one'
+printSwitchedValue(3) // 'three'
+printSwitchedValue(2) // 'two' 'three' 'default'
+#+END_SRC
+** Alternatives
+So what are the alternatives? I found three.
+*** First
+The first is using nested terneray statements:
+#+BEGIN_SRC js
+function printSwitchedValue (num) {
+  num === 1 ? console.log('one')
+    : num === 2 ? console.log('two')
+    : num === 3 ? console.log('three')
+    : console.log('default')
+}
+#+END_SRC
+My trouble with this one is that it's not normal looking js at all. In fact it
+requires this style of indentation, which is really non idiomatic. If you run it
+through Prettier, you get more like this:
+#+BEGIN_SRC js
+function printSwitchedValue(num) {
+  num === 1
+    ? console.log("one")
+    : num === 2
+      ? console.log("two")
+      : num === 3
+        ? console.log("three")
+        : console.log("default");
+}
+#+END_SRC
+I'm not a performance expert, but my suspicion is that this would also require
+evaluating each condition and can't be optimized in any way.
+*** Objects
+The other approach involves using object literals for control flow, which is
+idiomatic js.
+#+BEGIN_SRC js
+const printSwitchedValue (type) {
+  const values = {
+    '1': 'one',
+    '2' 'two',
+    '3': 'three',
+    'default': 'default'
+  }
+
+  const value =  values[type] || values['default']
+  console.log(value)
+}
+#+END_SRC
+I'm more a fan of this, though manually need calling the default case seems like
+a hassle. Also if any of these have a falsy value as a result, you could hit a
+strange bug where the default would trigger without you expecting it.
+
+There's also another problem if you want to have dynamic values like in redux
+when you manipulate state. Here, all of the branches with state will be eagerly
+evaluated. That's not great.
+#+BEGIN_SRC js
+const updateState = (state = 0, action) => {
+  const cases = {
+    'INCREMENT': state + 1,
+    'DECREMENT': state -1,
+    'default': state
+  }
+  return cases[action] || cases['default']
+}
+#+END_SRC
+To avoid this, you would need to leverage functions for delayed evaluation.
+#+BEGIN_SRC js
+const updateState = (state = 0, action) => {
+  const cases = {
+    'INCREMENT': () => state + 1,
+    'DECREMENT': () => state -1,
+    'default': () => state
+  }
+  return cases[action]() || cases['default']()
+}
+
+#+END_SRC
+This all works, but it seems like a lot of hassle for something that the
+language could handle for you.
+** Other langs
+Other languages love switch statements! Rust, F#, Elixir, Scala. In Elm, it's
+even considered a code smell to see a bunch of if else statements in a place
+where a case statement would suffice. But these languages have a more robust
+form of switch statements that leverage a feature called pattern matching. Why
+can't we have that?
+** Proposal
+No really, a brave coalition of developers have put forth a proposal to TC39 to
+do just that, add pattern matching case statements to newer versions of
+javascript. Here's what it would look like in the simplest example:
+#+BEGIN_SRC js
+const updateState = (state = 0, action) =>
+  case (action.type) = {
+    when 'INCREMENT' -> state + 1,
+    when 'DECREMENT': -> state - 1,
+    when _ ->  state
+  }
+#+END_SRC
+But it would also be much more powerful! It would deeply leverage the existing
+mechanics for destructuring in javascript, letting you match at a sophisticated
+level. Here's what it would look like in a more complicated case:
+#+BEGIN_SRC js
+const updateState = (state = 0, action) =>
+  case (action) = {
+    when { type: 'INCREMENT', data: {amount} } -> state + amount,
+    when { type: 'DECREMENT', data: {amount} } -> state - amount,
+    when _ ->  state
+  }
+
+#+END_SRC
+Or even better
+#+BEGIN_SRC js
+const updateState = (state = 0, action) =>
+  case ([action.type, action.data.amount]) = {
+    when ['INCREMENT', amount] -> state + amount,
+    when ['DECREMENT', amount] -> state _ amount,
+    when _ ->  state
+  }
+#+END_SRC
+** Conclusion, CTA
+That's the new world. Or at least the one we could have, but it's not here yet.
+If you're as excited as I am about this, then we have to make it happen. This
+proposal has been accepted to stage 1 of the TC-39 process. At this point, it
+exists mostly as a readme with the proposed semantics. That means it's really
+easy to contribute to it! You can just read the markdown and make suggestions.
+
+The next big step will be to get it to a place where people can play with it.
+There's currently someone working on an plugin for babel that would enable it.
+If you're interested in looking at it, you can either follow this pull request,
+or you can follow me on twitter and I'll tweet out about it as it gets to a
+place where you can play with it.
+** End
+Thank you for coming! This is my twitter handle if you're interested in finding
+out more. Also I love the company I work for, our mission is to help everyone
+write nicer code and be nicer to each other while they do it. If you would be
+interested in hiring us to code with you, or if you would be interested in
+joining our team to code with us, our website is testdouble.com, or you can come
+talk to me about it.
