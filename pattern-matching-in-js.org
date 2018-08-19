@@ -179,8 +179,9 @@ https://github.com/babel/babel/pull/7633
 ** Links
 - https://javascriptweblog.wordpress.com/2010/03/08/caseagainstswitch/
 - https://toddmotto.com/deprecating-the-switch-statement-for-object-literals/
--
-  https://hackernoon.com/rethinking-javascript-eliminate-the-switch-statement-for-better-code-5c81c044716d
+- https://hackernoon.com/rethinking-javascript-eliminate-the-switch-statement-for-better-code-5c81c044716d
+- http://bishankochher.blogspot.com/2012/02/nodejs-switch-is-evil.html
+- https://hackernoon.com/flip-the-switch-239d2d479a29
 ** Fall throughs
 - branches require ~break~ otherwise the next will execute
 - https://codepen.io/juancaicedo/pen/YOKXGz?editors=0012
