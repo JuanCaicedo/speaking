@@ -62,6 +62,13 @@ Gracias por ver y seguro que va a ser una conf espectacular
 - Show how to use babel to try out new js
 - It will show how you can contribute to tc39 process
 - Could do this talk in spanish
+* Extra short
+Javascript developers learn they should never use switch statements, yet this
+type of construct has a very important place in other programming languages.
+This talk introduces the TC-39 proposal for pattern matching, including the
+semantics of this new incarnation of the switch statement and as its use in both
+the front-end and back-end. By the end, developers will be able to directly
+provide feedback to the proposal.
 * Sparkler
 - library that inspired proposal
 - https://github.com/natefaubion/sparkler
@@ -280,7 +287,7 @@ evaluating each condition and can't be optimized in any way.
 The other approach involves using object literals for control flow, which is
 idiomatic js.
 #+BEGIN_SRC js
-const printSwitchedValue (type) {
+function printSwitchedValue (type) {
   const values = {
     '1': 'one',
     '2' 'two',
@@ -381,3 +388,12 @@ write nicer code and be nicer to each other while they do it. If you would be
 interested in hiring us to code with you, or if you would be interested in
 joining our team to code with us, our website is testdouble.com, or you can come
 talk to me about it.
+* Eng analysis doc
+https://docs.google.com/document/d/1cm7ofkIvpu_3S9pI7gm9fUKU8Pu_fKzCkh0xy3YWUd8/edit#heading=h.nndlijkgf0y0
+* Learning Elixir
+** Exercism
+- https://exercism.io/
+- https://elixir-lang.org/install.html#mac-os-x
+*** Thoughts
+Just have to write some stuff down because right now there is a very slow
+install going on and I don't know why
