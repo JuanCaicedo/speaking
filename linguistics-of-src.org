@@ -1,0 +1,24 @@
+* Title
+A linguistic view at src code
+* Abstract
+Our experience as software developers is mediated by language. The code we write
+is full of linguistic information. Using the same tools as those that study the
+meaning of texts, this talk will explore what insights can be drawn from a
+codebase based purely on the human language it uses. The goal is to come up with
+ways to better align our code and the language that we use to describe it.
+* Thoughts
+** Approach
+I was imagining something along the lines of
+- extracting all function names from a code base
+- analyzing them for parts of speech. For example, maybe a function like
+  `fs.join('./name', __dir)`, could be analyzed as subject=fs, verb=.join,
+  direct object=["./name", __dir].
+- boil down all that data to determine how many core verbs there are in a code
+  base
+- My hypothesis is that files or codebases with more core verbs would be harder
+  to understand
+* Resources
+** Methaphors we compute by
+- https://youtu.be/JrjbX-KX6wQ
+** Etymology of programming
+- https://youtu.be/2KTK2qD4-gs
