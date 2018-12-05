@@ -1,0 +1,18 @@
+* Abstract
+Our brain evolved to understand physical space, but unfortunately code exists
+mostly in the abstract. Virtual Reality creates a way to emulate physical
+experiences through digital means. By visualizing code in VR, we can leverage
+our spacial reasoning abilities to better understand code.
+* Thoughts
+- The idea I have here is that if we could visualize code like physical space,
+  maybe we could understand it more
+- I'm thinking that information like file size, file type, directory structure,
+  would be interpreted differently if we map it to physical-ish concepts
+- For example, each file is a shape, file size is its volume, file type is it's
+  shape, last time it was edited is its color
+- Or all directories are rooms and you can navigate between them
+* Questions
+** How do we do this in physical spaces
+- How do we understand meaning or organization of rooms? Buildings?
+- Maybe we could draw inspiration from civil engineering, industrial design,
+  museum design, architecture
