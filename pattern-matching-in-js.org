@@ -336,6 +336,20 @@ even considered a code smell to see a bunch of if else statements in a place
 where a case statement would suffice. But these languages have a more robust
 form of switch statements that leverage a feature called pattern matching. Why
 can't we have that?
+*** Elm
+#+BEGIN_SRC elm
+updateCounter state action =
+    case action of
+        INCREMENT amount ->
+            state + amount
+        DECREMENT amount ->
+            state - amount
+        RESET ->
+            0
+        _ ->
+            state
+#+END_SRC
+** Destructuring
 ** Proposal
 No really, a brave coalition of developers have put forth a proposal to TC39 to
 do just that, add pattern matching case statements to newer versions of
@@ -397,3 +411,79 @@ https://docs.google.com/document/d/1cm7ofkIvpu_3S9pI7gm9fUKU8Pu_fKzCkh0xy3YWUd8/
 *** Thoughts
 Just have to write some stuff down because right now there is a very slow
 install going on and I don't know why
+* Español
+** Introducción
+Uno siempre escucha que hay cosas que uno debería evitar en el desarrollo, y
+también cosas que uno absolutamente nunca debería hacer. Entre esas está el uso
+de los [switch statements] en javascript. Hoy les quiero hablar un poco de eso,
+y de las alternativas que existen para su uso, y más que todo les quiero hablar
+de lo que podría llegar a ser este [feature] del lenguaje.
+** Bio
+Gracias a todas y a todas por venir. Me llamo Juan David Caicedo y trabajo para
+una empresa llamada Test Double donde tenemos la misión de hacer que el escribir
+codigo sea agradable y amigable. Soy colombiano, candiense, y americano, me
+encanta aprender otros idiomas y tocar guitarra. Si algo de eso les parece
+interesante, pasen a saludarme.
+** Switch statements
+Desde que empezé mi carrera como desarrollador he escuchado decir que uno
+debería evitar los switch statements. Fue solo al prepararme para dar esta
+charla que por primera vez empezé a preguntarme por qué? Por que es que los
+switch statements son tan malos? Según Google, hay aproximadamente 900 millones
+de razones por las cuales lo son. Entre esos, mi favorito es este articulo que
+dice que los switch statements son malvados.
+
+Fuera de eso, hay dos razones que pude encontrar por las cuales a la gente no les
+gustan los switch statements. La primera es que mientras que la majoría del
+lenguaje usa [curly braces], el switch statement es de los pocos sitios donde se
+usa el doble punto.
+
+Pero bueno, eso no es una queja sino esthetica. Me parece más significativo el
+que al usar los switch statements es facil llegar a una situacion que se llama
+fall-through hell.
+** Alternativas
+- [nested ternary statements]
+
+La otra opción es usar un objeto como mechanismo para controlar la ejecución del
+codigo.
+** Otros lenguajes
+  codigo.
+* Codigo español
+** switch
+#+BEGIN_SRC js
+function imprimirEnEspañol(num) {
+  switch (num) {
+    case 1:
+      console.log('uno')
+    case 2:
+      console.log('dos')
+      break
+    default:
+      console.log('default')
+      break
+    case 3:
+      console.log('tres')
+  }
+}
+
+imprimirEnEspañol(2)
+// dos
+
+imprimirEnEspañol(4)
+// default
+
+imprimirEnEspañol(1)
+// uno
+// dos
+
+imprimirEnEspañol(3)
+// default
+#+END_SRC
+** Nested ternaries
+#+BEGIN_SRC js
+function imprimirEnEspañol(num) {
+  num === 1 ? console.log('uno')
+    : num === 2 ? console.log('dos')
+    : num === 3 ? console.log('tres')
+    : console.log('default')
+}
+#+END_SRC
