@@ -1,0 +1,71 @@
+* Choosing a topic on which to speak
+** Info
+Based on your tech/non-tech expertise, select a topic to present at a
+conference. (Examples: Rust Language, Mixed Reality, Tech Diversity, Open
+Communities.)
+** Answer
+Mixed reality
+* Contemplate your personal style
+** Info
+Think for a while and write down your own creative strategy to hold your
+audience’s attention.
+- Example: Will you talk about code, share a personal story, or offer a unique
+  perspective on a common experience? Tell us about your planned approach.
+** Answer
+- Show visualizations
+- Show code snippets instead of getting into every single code example
+- Use example projects that they find relevant
+* Contemplate your potential audience and delivery:
+** Info
+- Will you be presenting this material as a talk or as a workshop?; Are you
+  targeting an audience of 20 or 200? Will you be presenting to beginners or
+  experienced coders?
+- Tell us about your goals and consider how factors like audience size and
+  experience may impact the best way to deliver your content.
+** Answer
+- Around 500 people (JSConf)
+- Mixed levels in JS (average is 50% beginners)
+- Beginners in VR
+- Given that few people will have experience in VR, it will be useful to explain
+  a lot of the concepts that are guiding my approach and design (psychology,
+  architecture, etc)
+- For beginning coders, my hope is that the visualizations will be clearer in
+  structure than the code they are describing
+- There might not be much time to explore the demos in depth, so it might be a
+  good idea to identify interesting examples and showcase them
+* Prepare for helpful and actionable feedback
+** Info
+List out 5 questions (based on your talk presentation) that you would like to
+ask your audience for feedback on.
+
+Example of possible questions below:
+- Were there any terms or technologies from this presentation that you were
+  hearing/learning-about for the first time?
+- Demo : Anyone worked on the same Idea before? If yes - How is it different
+  from yours?
+- Do you feel that the presentation deck used helped to support the content and
+  message that I delivered?
+- Do you have any suggestions for live code or examples I might want to
+  incorporate?
+- Did you find the material presented today to be either too technical or too
+  theoretical?
+** Answer
+- Does this approach seem like it could be useful on projects you've worked on?
+- What else about code do you think might be visualizable?
+- Would you be interested in the VR look of any particular library?
+- Can you think of languages that wouldn't be well represented by this?
+- Is there anything that helps you learn a code base that the demos should show?
+* Bio
+** Short
+Juan is a Colombian-Canadian-American software consultant (Double Agent) at
+TestDouble. He loves helping other engineers write software, through teaching
+and promoting testing, pairing, being nice. When not programming, Juan plays the
+guitar and loves climbing trees.
+** Long
+Juan is a Colombian-Canadian-American software consultant at TestDouble. His
+real job title is Double Agent. He loves helping other engineers write software,
+through teaching, promoting testing, pair programming, and being nice.
+
+For the last three years, Juan has been working remotely full time. During that
+time he has also had the opportunity to travel/live in 17 countries. He loves
+playing the guitar and going on 3 hour walks in a new city.
