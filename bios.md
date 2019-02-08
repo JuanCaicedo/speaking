@@ -1,15 +1,17 @@
 ## 200 char version
 
-Juan is a Colombian-Canadian-American software consultant (Double Agent) at
-TestDouble. He loves improving processes so that teams can collaborate better.
-When not programming, Juan plays the guitar and climbs trees.
+Colombian-Canadian-American software consultant (Double Agent) at TestDouble.
+Teaching, testing, pairing, being nice 👍 3 hour walks in a new city 🙌
 
 ## 400 char version
 
 Juan is a Colombian-Canadian-American software consultant at TestDouble. His
-real job title is Double Agent. He loves helping new programmers get started and improving processes so that
-teams can collaborate better. When not programming, Juan has been learning to
-play the guitar and he never grew out of climbing trees.
+real job title is Double Agent. He loves helping other engineers write software,
+through teaching, promoting testing, pair programming, and being nice.
+
+For the last three years, Juan has been working remotely full time. During that
+time he has also had the opportunity to travel/live in 17 countries. He loves
+playing the guitar and going on 3 hour walks in a new city.
 
 ## Español
 
