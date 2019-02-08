@@ -1,0 +1,56 @@
+* Title
+* Thoughts
+The emergence of virtual reality is fundamentally changing the way we display
+data. With the growth of vr technologies in the browser, it's now coming into
+question whether css will continue to be the way that we style content in the
+future. This talk will search to answer that question, or at least to ponder it.
+My thinking here is that I don't really know if in the future it will be worth
+it to write css or not once we enter the era of being able to diplay lots of
+things in vr. Maybe it will remain relevant because it has access to things that
+vr can't, like for example the full ability to style low weight dom information.
+But in the event that we end up wanting to display lots of styled information
+inside of virtual reality, then we get into an interesting situation. Do we
+continue to have the css methods that we have, or do they need to evolve along
+with our understanding of how they work?
+
+Because I am not very well informed about css and what things are going on in
+that part of the industry, and much less so about vr, it's hard for me to come
+up with a really flushed out or interesting presentation. But my goal here is
+that I would really like to piece together the ideas I have, or more accurately
+the questions I have, which I would like to extract onto here. I would like to
+be able to ask the questions that I am curious about. And if no one is able to
+provide those questions for me, then that's fine, I can provide my own answers
+by searching out new knowledge and creating something new in the world. But what
+I need to to the most is be able to gather all my thoughts.
+
+This part is hard because often when I sit down to read, I can't really get it
+to do all the things I would like to. So what has that made me start thinking?
+Well what it has really made me think of is that I would like to start this out
+by doing the thing that I most like to do when I don't know something. Just do a
+brain dump. Just try to stop blocking your own creativity and write down
+everything that comes to mind. That's a truly great skill.
+
+So why do I find virtual reality so fascinating? It's because I think that we
+really have the ability not to just replace our experience of the present, as
+some people or movies like they matrix present, but instead I think that what we
+have the ability to do here is to present something totally new to ourselves. We
+have the ability to use technology to enhance the experiences we're having in
+the moment. This might be called augmented reality in some sense, but my hope is
+that we will reach a level where that doesn't even have to be a distinction.
+that's just something that we do by default.
+
+The tough thing about a brain dump is that it's hard to know hom much longer you
+really have. If you do it for too long, just let your brain roam and do
+whatever, then you risk missing out on actually important situations that could
+lead to you doing a lot more productive things. In life there is always a
+balance between letting your mind roam and letting anything that could possibly
+come up come up, and the other side which is trying to get it so that we have
+more ability to get things done. Eventually, at least for me when I am
+brainstorming in these moments, real life comes along. Maybe it happens when I
+am at home and someone needs something from me. Or maybe my phone rings and
+something tears away my attention. Or maybe I have been stealing a few minutes
+out of my workday so that I could get lost in thought, but now I'm at the point
+where I need to focus back in.
+* Links
+- https://github.com/keithclark/cssvr
+- https://heydesigner.com/html-css-vr/
