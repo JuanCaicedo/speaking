@@ -1,16 +1,52 @@
 * Title
-Groking javascript with Virtual Reality
+Grokking JavaScript through Virtual Reality
 * Abstract
+** 50 words
+It is hard to learn the layout of a new codebase. Virtual Reality provides the
+ability to apply perceptual skills, such as spatial reasoning, to novel domains,
+like software. This talk will discuss the challenges and effectiveness of
+representing code through VR.
+** 600 chars
 While the human brain has evolved to understand physical space, code exists
-mostly in the abstract. Engineers have invented many techniques for visualizing
-and interpreting code, yet understanding it remains difficult.
+mostly in the abstract. Though engineers have invented many techniques for
+trying to comprehend codebases, doing so remains difficult.
 
-Virtual Reality provides the ability to apply our extensive perceptual skills
-(such as spatial reasoning) to novel domains, like software. This talk tests the
-hypothesis that we can better understand code by leveraging our understanding of
-physical space. It will discuss the implementation and effectiveness of
-representing code through VR, showing how many popular open source projects
-would look in this new world.
+Virtual Reality provides the ability to apply perceptual skills such as spatial
+reasoning to novel domains, like software. Is it possible to better understand
+code through leveraging our perception of physical space? This talk will discuss
+the challenges and effectiveness of representing code through VR. By the end,
+you will see from a brand new perspective.
+** 200 words
+Though the human brain has evolved to understand physical space, code exists
+mostly in the abstract. This makes it hard to quickly understand the layout of a
+new codebase. Our current approaches for code visualization and introspection
+all rely on a 2 dimensional screen, making it difficult to conceptualize our
+programs.
+
+Virtual Reality provides the ability to create experiences that more closely
+resemble our real world. Because of that, VR can create mapping between objects
+in physical space and concepts in our digital creations. Because humans are good
+at understanding our evironment, we can become good at understanding other
+things if they resemble our environment.
+
+In this talk, we extend that premise into software. Directory structures can be
+explored in the same way as a system of hallways, rooms, and doors. File size
+and complexity can be analyzed much the same as objects. We can determine where
+we should spend our code maintenance efforts in the same way as we would inspect
+the foundation of a house.
+
+We all build up nebulous mental representations of code as we try to
+comprehend it. By seeing it through a new perspective, as an immersive
+4-dimensional world, we can come to know it in a new way.
+* Bio
+Juan is a Colombian-Canadian-American software consultant (Double Agent) at Test
+Double. He loves helping other engineers write software through teaching,
+promoting testing, pair programming, and being nice. He has spoken about
+experimental approaches to coding at conference all over the world.
+
+For the last three years, Juan has been working remotely full time. During that
+time he has also had the opportunity to travel/live in 17 countries. He loves
+playing the guitar and going on long runs in new cities.
 * Thoughts
 - The idea I have here is that if we could visualize code like physical space,
   maybe we could understand it more
