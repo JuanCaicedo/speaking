@@ -1,0 +1,119 @@
+* Title
+Grokking JavaScript through Virtual Reality
+* Abstract
+** 50 words
+It is hard to learn the layout of a new codebase. Virtual Reality provides the
+ability to apply perceptual skills, such as spatial reasoning, to novel domains,
+like software. This talk will discuss the challenges and effectiveness of
+representing code through VR.
+** 600 chars
+While the human brain has evolved to understand physical space, code exists
+mostly in the abstract. Though engineers have invented many techniques for
+trying to comprehend codebases, doing so remains difficult.
+
+Virtual Reality provides the ability to apply perceptual skills such as spatial
+reasoning to novel domains, like software. Is it possible to better understand
+code through leveraging our perception of physical space? This talk will discuss
+the challenges and effectiveness of representing code through VR. By the end,
+you will see from a brand new perspective.
+** 200 words
+Though the human brain has evolved to understand physical space, code exists
+mostly in the abstract. This makes it hard to quickly understand the layout of a
+new codebase. Our current approaches for code visualization and introspection
+all rely on a 2 dimensional screen, making it difficult to conceptualize our
+programs.
+
+Virtual Reality provides the ability to create experiences that more closely
+resemble our real world. Because of that, VR can create mapping between objects
+in physical space and concepts in our digital creations. Because humans are good
+at understanding our evironment, we can become good at understanding other
+things if they resemble our environment.
+
+In this talk, we extend that premise into software. Directory structures can be
+explored in the same way as a system of hallways, rooms, and doors. File size
+and complexity can be analyzed much the same as objects. We can determine where
+we should spend our code maintenance efforts in the same way as we would inspect
+the foundation of a house.
+
+We all build up nebulous mental representations of code as we try to
+comprehend it. By seeing it through a new perspective, as an immersive
+4-dimensional world, we can come to know it in a new way.
+* Bio
+Juan is a Colombian-Canadian-American software consultant (Double Agent) at Test
+Double. He loves helping other engineers write software through teaching,
+promoting testing, pair programming, and being nice. He has spoken about
+experimental approaches to coding at conference all over the world.
+
+For the last three years, Juan has been working remotely full time. During that
+time he has also had the opportunity to travel/live in 17 countries. He loves
+playing the guitar and going on long runs in new cities.
+* Thoughts
+- The idea I have here is that if we could visualize code like physical space,
+  maybe we could understand it more
+- I'm thinking that information like file size, file type, directory structure,
+  would be interpreted differently if we map it to physical-ish concepts
+- For example, each file is a shape, file size is its volume, file type is it's
+  shape, last time it was edited is its color
+- Or all directories are rooms and you can navigate between them
+* Questions
+** How do we do this in physical spaces
+- How do we understand meaning or organization of rooms? Buildings?
+- Maybe we could draw inspiration from civil engineering, industrial design,
+  museum design, architecture
+* Code visualizations
+** Python
+http://www.pythontutor.com/visualize.html#mode=edit
+** .net
+https://softwareengineering.stackexchange.com/questions/9761/how-to-visualize-code
+** Javascript
+*** JSCity
+https://github.com/aserg-ufmg/JSCity
+*** Thoughts
+Interesting, the tough thing about having large functions is that they become
+large buildings that are hard to vizualize.
+*** Debugger
+*** NYC course
+- http://stewd.io/javascript/
+*** Dependency graph
+*** Uml
+https://www.youtube.com/watch?v=zid-MVo7M-E
+*** Tree chart Python
+http://www.redotheweb.com/CodeFlower/
+In this one perhaps you can view the change of a refactor by knowing the name of
+a file and dragging it around a lot
+*** Execution tracing
+https://www.infoq.com/news/2013/04/tracegl
+*** Global scope viz
+https://www.disnetdev.com/blog/2010-12-17-visualizing-javascript/
+https://github.com/disnet/jsvis
+*** Nearform Clinic bubbleprof
+- https://www.nearform.com/blog/introducing-clinic-bubbleprof-a-unique-way-to-visualise-node-js-code/
+*** Node dependencies
+http://hughsk.io/colony/
+* Thoughts
+- The goal here is to do a few different things
+- Research current approaches to code visualizations
+- Why they are good
+- Why they are bad
+- How could VR be better?
+* Ways to visualise
+** Coverage
+- Make it easy to notice which files have not been tested
+- The goal would be to quickly reduce information about where to focus efforts
+** Highlight dependencies
+- Make it clear how careful you should be when refactoring
+- See things get simpler after refactoring
+** Calls between functions as swarms of bugs
+- The idea here would be that you could find sections of the code that are being
+  referred to by lots of other parts. This would be live code and would be
+  buzzing around.
+- Code with few calls to it would be dead code and wouldn't have a lot of things
+  relating to it
+- You could then see the code stuck and you could remove it
+* Why VR?
+- We have lots of techniques for visualizing data. Yet data is still hard to
+  understand.
+- VR has proved the ability to penetrate much deeper into our understanding than
+  other techniques of technology
+- Why can't we use that for education and for productivity instead of only for
+  entertainment
