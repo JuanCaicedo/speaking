@@ -9,16 +9,21 @@ Juan is a Colombian-Canadian-American software consultant at TestDouble. His
 real job title is Double Agent. He loves helping other engineers write software,
 through teaching, promoting testing, pair programming, and being nice.
 
-For the last three years, Juan has been working remotely full time. During that
-time he has also had the opportunity to travel/live in 17 countries. He loves
-playing the guitar and going on 3 hour walks in a new city.
+For the last four years, Juan has been working remotely full time. During that
+time he has also had the opportunity to travel and live in 17 countries. He
+loves playing the guitar, writing, doodling, and spending an afternoon exploring
+a new city on foot.
 
 ## Español
 
-Juan David es un desarrollador full-stack para SpanishDict.com, el diccionario
-español inglés más grande del mundo. Creció entre Bogotá y Oregon, y habla
-inglés y español como lengua materna. Da charlas acerca del idioma Elm y de la
-filosofía Unix dentro de Node.js
+Juan David es Colombiano-Canadiense-Americano y trabaja como consultor de
+software en Test Double. Le gusta ayudarle a otros ingenieros a escribir codigo,
+a travez de enseñar, hacer pair programming, promover el testing, y siendo
+amable.
+
+Lleva cuatro años trabajando remoto, lo cual le ha dado la oportunidad de viajar
+y vivir en 17 paises. Le encanta tocar guitarra, escribir, dibujar, y pasar la
+tarde conociendo una nueva ciudad a pie.
 
 ## 30 second version
 
