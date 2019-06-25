@@ -1,0 +1,238 @@
+* Exercise
+So exercise is that we need to do a 5 minute presentation about anything we
+want. This is annoying because having absolutely no structure makes me focus
+more on making good content than about anything with the exercise.
+
+The easiest would be if we can take the ideas of pattern matching in JS and
+apply storytelling to them. Then I don't have to do a lot of new work, but I can
+still get the storytelling focus.
+
+Uggg I don't feel like I can focus on coming up with a brand new thing right
+now, and the fact that I don't even know what that thing should be is even more
+frustrating.
+* How I started remote working
+How to stand up for yourself isn't something that you learn a lot of growing up
+as an immigrant. For me at least, the shy middle child of a single working mom,
+it wasn't something that you learned a whole lot of.
+
+I studied linguistics. I did it just because it was an interesting thing to
+spend a lot of class hours learning about. Nearing the end of my four years, I
+realized that I didn't want to go into any of the jobs that it seemed like
+people go to from a linguistics degree.
+
+But then I figured, why not try something new? All of my friends were coming
+home while they looked for jobs, and I knew my mom would be glad to have me
+back. So I moved back home and started teaching myself programming.
+
+First event in a series of very lucky events. I went to a meetup group to listed
+to a presentation based on a friend's advice. The organizers held a raffle at
+the start of the event, and the main prize was a free ticket to the open source
+software conference which was going to be in town next week. In a cool turn of
+events, I got it.
+
+I think going to that first conference early on was a huge factor in my getting
+interested in conferences and events. I was in the earliest stages of learning
+to write my own standalone java classes, but I got to go listen to talks by some
+of the best people in our industry.
+
+Through that conference I ended up in a phone interview with a contracting
+company in DC that offered to give me 12 weeks of enterprise web development
+training after which they would hire me to come work for them. And through all
+the self studying that I had been doing, I managed to convince them that they
+should take a chance and offer me a job. So a few weeks later, I was on a plane
+to Washington DC, where I had never been before and knew absolutely no one.
+
+But I did it! I moved out to DC, and learned how to program enterprise web
+servers, sat through the 2013 government shutdown which made it hard for anyone
+in the government and especially contracting sector to get work, and eventually
+made my way into web development.
+
+Because I went through 12 weeks were every single day I was learning a crazy
+amount of new things, when I started working, I applied the same attitude there.
+I spent a ton of my free time during the first year of my carreer teaching
+myself new programming concepts. First, I brushed up on all the technologies
+that we used at my project. Then, I read the classics of software engineering,
+like Code Complete, Clean Code, and Refactoring.
+
+This was the real turning point in my career. I got switched into another
+project, and on my first day they told me that the contractor that had
+subcontracted me had lost the main contract. So for the next 6 months, everyone
+would be transitioning their duties over to the new contractor. I had no duties,
+so there was nothing for me to do. But they still wanted me to keep showing up,
+because they got paid a share of whatever they billed me for.
+
+At first, I thought this would be great, but then after about two weeks of doing
+whatever I want on my computer while at work, it started to drive me crazy. At
+some point, someone had told me that a MEAN stack was the hot new thing that
+everyone was using. I didn't have anything to do, so why not? I started learning
+javascript.
+
+You can learn a programming language much faster if you have a chance to talk to
+other people that are already good at it. And going to meetup groups had served
+me very well in the past, so I figured why not try it again? I found a Node
+meetup group and started going to it.
+
+Luck would have it that the company which hosted that meetup was a small startup
+that built a large Spanish English dictionary website. I became friends with one
+of the guys that worked at the company and as soon as I found a way to get out
+of my dead-end contracting job, I interviewed there.
+
+I met the CEO as one part of my interview. And he asked me a question that
+changed the rest of my life.
+
+What would make you take this job over any other?
+
+At the time, I had been thinking a lot about how much it sucked to be away from
+family. I hadn't been able to see my family at Christmas because I had very
+little time I could take off. I hadn't seen my dad in Colombia in about 3 years.
+It's hard to make a long international flight when your days off mean you could
+only stay a few days.
+
+So I told him that his company would be my number one choice if it would let me
+remote work from Colombia part of the time. Eventually that turned into working
+in Colombia all of the time.
+* What's the real story there?
+I don't really know, if the point of a this is to practice storytelling, I don't
+think that the one about story telling really qualifies. But maybe telling the
+story about my sister and losing the keys to her apartment would be better.
+
+Still though, that makes me uncomfortable because I don't really want to start
+telling everyone there about my situations with my sister. Really it's a
+personal story, I like telling it to friends but telling it in the context of
+tech speaking would be hard.
+
+What are work stories that I could tell? I guess there's the one about how I
+caused an outage in my first few days at CircleCI. That story has a little bit
+of intrigue.
+
+I don't really know what to write. Fuck, this has absolutely no direction and
+therefore it's really frustrating. I mean, tell a story? That seems like a weird
+thing to practice with absolutely no direction.
+
+Maybe I could tell a story of how I got into conference speaking. That's
+interesting in that it would be relevant to the whole group since they've all
+been through the same as well. It also has a lot of feelings since I would be
+mentioning how stressed out I was, as well about how excited I felt when I
+finally got it all done and felt more connected with spanish after all the
+conversations I had.
+
+I guess that would probably be a good story. The beginning is me getting
+accepted, then putting it on the back burner.
+* Story
+I thought about it and it seems like probably the best story here would be the
+one about my first public speaking opportunity at JSConf UY. Perhaps a cool
+topic here would be about how to get into conference talks by jumping in and not
+worrying about whether they are good or not. This was the big takeaway from my
+trip to UY, but at the same time this could allow me a cool opportunity to tell
+a nice story without needing to worry about having the story be the only meaty
+part of the presentation. It will give it good take away moments which would
+make the talk actually a good presentation, particularly for this tye of
+audience and environment.
+* The first talk I was accepted to
+Today I would like to tell you the story about the first conference talk that I
+was accepted to give. I would like to tell this story so that the audience will
+get certain take aways:
+- Submit early and often
+- Take risks
+- It's better to be over prepared
+** Structure
+What I'm thinking is that the beginning is getting interested in conference and
+meeting Jordan Kasper.
+
+The middle is about the three learning things.
+
+The end is me giving the talk.
+** Beginning
+Since I've started in software, I've considered participating conferences to be
+one of the best things that I could dedicated my time to.
+
+This is maybe because of chance. Imagine me, graduating from university with a
+bachelors in linguistics and next to no programming experience and thinking
+"Yeah, software sounds like a good career, let's do that!".
+
+I was young, excited, and sort of terrified that I would never find a job. So I
+spent a lot of my free time trying to learn how to software and started going to
+meetup groups trying to connect with other people in the industry.
+
+At the first one of those I went to, I won a ticket for the Open Source Software
+conference. This made it so that early on I got a chance to go listen to some of
+the brightest people in our industry.
+
+From that conference, through a bunch of random events, I ended up getting my
+first job as a software engineer. That placed in my mind the idea that
+conferences were a tool that I could use to close the gap between where I was in
+my career and where I could be if I had a degree, work experience, a big
+network, etcetera.
+** Middle
+When I was first getting into speaking, I received a piece of advice. Submit
+early, and submit often. The idea of this advice is that you should apply to
+speak at lots of conferences, and have lots of proposal on hand that you can
+submit to CFPs.
+
+My talk was turned down for the first conference I applied to speak at. Warned
+that I shouldn't get discouraged, I applied to more. I was then turned down for
+the first 12 conferences I applied to, in a row. When I got an email accepting
+my talk to JSConf Uruguay, I was a little confused. I didn't even remember
+applying since I had applied to so many over a few hurried weekends.
+
+That leads into the second learning for conference speaking. Be bold and take
+risks.
+
+At that point, I had been working on a talk for about 6 months about how to use
+data streams within web applications. That's a talk I submitted for JSConf UY,
+but it was turned down. I had another proposal on the other hand about how to
+recreate some of the patterns and architecture from the Elm programming language
+into javascript. That's the one that was accepted.
+
+At that time, I had never written a single line of Elm code. Literally none. I
+had heard on a podcast about Elm that it was a really cool language and that
+writing in it made you think about javascript code differently. I figured I
+could prepare my submission, then by the time was accepted I would actually
+know the topic.
+
+It was, and I didn't. The two months before flying to Uruguay were definitely
+more stressful because of this approach, but the topic also seemed to slowly
+force itself in my mind. Now that it was top of mind, functional programming
+seemed to come up in conversations with developer friends, helping me learn the
+philosophy that guides a lot of functional frontend development.
+
+A month before, I went to a workshop for another conference and the presenter
+had a small section of it dedicated to using the virtual dom and functional UIs.
+That lead to a few conversations with them and a couple other attendees that
+were interested in the subject. The bulk of the talk I ended up giving came
+directly from ideas and suggestions from that conversation.
+
+The day came, my talk was (mostly) ready, and I got on a plane to fly to
+Montevideo. It's around then that I learned a last very important lesson about
+conference speaking: communicate with the organizers, a lot.
+
+I arrived in Montevideo a couple days early. Though I had lived most of my life
+flying between three different countries, I didn't travel in the tourist sense
+almost at all. After my first day wandering around the city trying to find
+interesting things to do or see, I started to wish that I had gotten some
+suggestions from the conference organizers.
+
+Having wandered around aimlessly for hours, I decided to come back to my hostel
+to take a nap. A couple hours later, I was awakened from that nap by the hostel
+staff, who told me that there were two people at the front desk looking for me.
+Those people were the conference organizers, who were relieved to find that I
+was safe, and that I didn't need to be on Montevideo's missing persons list,
+which is where my name currently was.
+
+See I had told them that I wanted to come to town a few days early to see the
+city. I hadn't told them that I had booked my own accommodation for those two
+nights. Or that I would arrange my own transportation from the airport, instead
+of getting picked up by them.
+
+While I was landing in the international airport, taking a bus to my hostel, and
+walking around looking for something to do, they were concerned that I never
+found them at the airport, that I wasn't returning any of their calls, and that
+I had never checked in to the hotel they had reserved for me. It was all a silly
+misunderstanding really, but one that could have been avoided if I had
+communicated with them much more.
+** End
+** Improvements
+- The conflict was better to point out early
+- Connect emotions early
+- Practice delivery more and don't let the story wander
+- Could the throughline be clearer at the end?

@@ -1,5 +1,5 @@
 * Title
-Grokking JavaScript through Virtual Reality
+Enter the Src
 * Abstract
 ** 50 words
 It is hard to learn the layout of a new codebase. Virtual Reality provides the
@@ -8,14 +8,14 @@ like software. This talk will discuss the challenges and effectiveness of
 representing code through VR.
 ** 600 chars
 While the human brain has evolved to understand physical space, code exists
-mostly in the abstract. Though engineers have invented many techniques for
-trying to comprehend codebases, doing so remains difficult.
+mostly in the abstract. Engineers have invented many techniques for
+trying to comprehend codebases, yet doing so remains difficult.
 
 Virtual Reality provides the ability to apply perceptual skills such as spatial
 reasoning to novel domains, like software. Is it possible to better understand
 code through leveraging our perception of physical space? This talk will discuss
 the challenges and effectiveness of representing code through VR. By the end,
-you will see from a brand new perspective.
+you learn how to see code from a brand new perspective.
 ** 200 words
 Though the human brain has evolved to understand physical space, code exists
 mostly in the abstract. This makes it hard to quickly understand the layout of a

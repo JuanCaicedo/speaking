@@ -35,3 +35,27 @@
 - Rejections are not a big deal
 - Submit early and submit often
 - Own your expertise
+* Feedback from Moz
+- introduce myself a little bit
+- bio
+- get everyone excited about the topic
+- interesting topic innovative
+- tricky is less explaining the idea and more getting it into a succinct abstract
+* Ignacio
+- Nacho
+- Buenos aires meetup vuejs
+- Subway dilema, mobile and low connectivity
+- Basic experience even with low connection
+- Good structure
+- Bios can really push a proposal forward
+* Tracy
+- Designer developer
+- Negotiation
+- Start with a story
+- How to make this topic accessible
+* Allison
+- parent driven development
+- CRDT, conflict free replicated data type
+- What does that mean?
+- Comparing a concept to other things that are much more straight forward
+  (dancing metaphor)

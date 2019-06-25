@@ -1,0 +1,12 @@
+* Title
+Serverless Websockets
+* Abstract
+Surely it must be impossible. Websockets are long-lived connections for
+communicating between clients and servers. Serverless architectures erase the
+need for persistent servers in between client calls. How can these two possibly
+work in concert?
+
+This talk will explore the benefits and challenges of combining these two
+paradigms. By the end, developers will understand the technical solutions (and
+hacks) for setting up such data transfer, as well as the problem solving method
+for discovering this approach.

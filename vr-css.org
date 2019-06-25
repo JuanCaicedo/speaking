@@ -54,3 +54,7 @@ where I need to focus back in.
 * Links
 - https://github.com/keithclark/cssvr
 - https://heydesigner.com/html-css-vr/
+* Abstract
+We will always need to layout information in two dimensions. Even in the age where many user interfaces will move towards virtual reality, CSS will be the best tool for doing that.
+
+This talk will discuss the advantages of using CSS within a VR application, as well as the challenges of adapting 2D paradigms to this new visual platform.

@@ -1,0 +1,29 @@
+* Talk
+Pattern matching in Javascript
+* Questions
+** Why should we listen to you, if you didn't write this proposal?
+The vast majority of js developers don't get a chance to directly contribute to
+TC39 proposals. This creates the idea that only those who are actively
+contributing to the spec have perspectives on it. Digging into this topic taught
+me that anyone that dedicates some time to it can get up to speed on what these
+proposals are and how they could be useful in the code we write.
+** Why does JS have switch if it's bad?
+Javascript has been around a while now and a lot of the perspectives we have
+about the good and bad parts of it's design come from experience. Though that
+experience can guide our behaviors in the future, it cannot deprecate features
+that we no longer deem worthwhile.
+** Why do we need syntax instead of workarounds?
+Having this handled at the syntax level frees us up to devote more of our time
+to working on business logic. It also provides a more robust and standard way
+for the language to handle these types of cases. On top of all of that, these
+changes in semantics can combine with other semantics to provide more robust
+ways of writing these handlers despite the framework or js-flavor that you are
+using.
+** When will this be usable?
+Because the focus of TC39 is to provide a stable spec for the language, and any
+mistakes will stick around forever, it's better to be conservative and move
+slowly. This feature is in stage 1 now and it will still require more work
+before it can be used in production. Thought it's impossible to predict how much
+time it will take for it to make it into the main language, it can move much
+faster if developers like us take the time to try out the feature and contribute
+feedback.
